@@ -2,8 +2,8 @@ import sys
 
 name = sys.argv[1]
 
-def greet (name: str):
-    return f"Hello, {name}!"
+def greet (greeted_name: str):
+    return f"Hello, {greeted_name}!"
 
-print (greet(name))
+print (greet(greeted_name))
 
