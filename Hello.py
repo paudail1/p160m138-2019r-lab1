@@ -1,16 +1,14 @@
 import sys
 
 
-<<<<<<< HEAD
 def greet(greeted_name: str, shout_count: int = 1):
     return f"Hello, {greeted_name}{shout_count * '!'}"
 
-=======
+
 def greet (greeted_name: str):
     return f"Hello, {greeted_name}!"
 
 print (greet(greeted_name))
->>>>>>> master
 
 if __name__ == "__main__":
 
